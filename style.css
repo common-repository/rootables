@@ -1,0 +1,82 @@
+/*
+    CSS
+*/
+
+#mm-widget .method {
+    position:relative;
+    margin-bottom:5px;
+}
+
+#mm-widget img {
+    border:none;
+}
+
+#mm-widget .method-image-overlay { 
+	position:absolute; 
+    bottom: 0;
+    left: 0;
+    background-color:#555;
+    background-color:rgba(34, 34, 34, 0.8);
+    color: #fff;
+    width:100%;
+    text-align:left;
+    min-height:3em;
+}
+
+#mm-widget h1 {
+    font: 600 15px/15px "ff-kievit-web-1","ff-kievit-web-2","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin:0px;
+    padding:0px 2px;
+    margin:5px 5px;
+    text-align:left;
+}
+
+
+#mm-widget .method-mugshot {
+    position:absolute;
+    top:10px;
+    right:-10px;
+    background-color:#fff;
+    width:36px;
+    height:36px;
+    margin:0px;
+}
+
+#mm-widget .method-mugshot img {
+    margin:2px;
+}
+
+#mm-widget .boxout {
+    margin-top:-5px;
+    margin-bottom:20px;  
+    padding-top:6px;
+    background:url('./comment-bubble-top.gif') no-repeat;
+    background-position: 38px top;
+    position:relative;
+    z-index:1;
+
+}
+
+#mm-widget .boxout div {
+    padding:5px 10px 2px 10px;
+
+    background-color:#eceff5;
+    line-height:1.5em;
+    border-radius:3px;
+}
+
+
+/* LINKS - GENERAL */
+#mm-widget .boxout a:link, #mm-widget .boxout a:visited {
+    color:           #5b80b2;
+    text-decoration: none;
+}
+
+#mm-widget .boxout a:hover {
+    color:  #036;
+}
+
+#mm-widget h1 a, #mm-widget h1 a:hover {
+    color:#fff;
+}
+
